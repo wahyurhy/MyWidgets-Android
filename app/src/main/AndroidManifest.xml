@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyWidgets">
         <receiver
-            android:name=".RandomNumberWidget"
+            android:name=".RandomNumbersWidget"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
